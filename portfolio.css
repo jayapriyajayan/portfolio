@@ -158,8 +158,8 @@ body {
 .skills-grid {
     margin-top: 60px;
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 25px;
 }
 
@@ -178,6 +178,7 @@ body {
     border-radius: 20px;
 
     transition: 0.4s;
+    
 }
 
 
@@ -235,7 +236,12 @@ body {
 
     font-size: 22px;
 
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+}
+
+.skill-card p{
+    color: #555;
+    line-height: 1.6;
 }
 
 .skill-content p {
